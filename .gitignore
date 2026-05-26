@@ -1,0 +1,45 @@
+# =========================
+# Secrets (APIキーやパスワードなど)
+# =========================
+.env
+*.env
+.env.local
+
+# =========================
+# Database (ローカルのDBデータ)
+# =========================
+db-data/
+postgres-data/
+mysql-data/
+
+# =========================
+# Python (FastAPI / AI)
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+.venv/
+pip-log.txt
+.pytest_cache/
+
+# =========================
+# Java (Spring Boot / Maven)
+# =========================
+target/
+*.class
+*.jar
+*.war
+*.ear
+.mvn/
+!/.mvn/wrapper/maven-wrapper.jar
+
+# =========================
+# OS & IDEs (開発環境の設定ファイルなど)
+# =========================
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
