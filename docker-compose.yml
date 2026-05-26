@@ -1,0 +1,15 @@
+version: '3.8'
+services:
+  backend-java:
+    build: ./backend-java
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./backend-java:/app
+
+  ai-python:
+    build: ./ai-python
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./ai-python:/app
